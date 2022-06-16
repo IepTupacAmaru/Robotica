@@ -1,0 +1,42 @@
+.body {
+	font-family: sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	font-size: 1.1em;
+	margin-top: 2em;
+}
+
+main {
+	width: 80%;
+	margin: auto;
+}
+
+.acordeon {
+	background: #eee;
+	a {
+		text-decoration: none;
+		display: block;
+		background: #ddd;
+		line-height: 2.5;
+		padding: 0 1em;
+		color: steelblue;
+		font-weight: bold;
+		border-bottom: 1px solid #ccc;
+	}
+	p {
+		padding: 1em;
+		margin: 0;
+		display: none;
+
+		&:target {
+			color: block;
+		}
+	}
+}
